@@ -3,5 +3,9 @@ module.exports = {
     title: `new`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
+  plugins: [
+    { resolve: `gatsby-plugin-styled-components` },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
